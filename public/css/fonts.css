@@ -1,0 +1,24 @@
+/* @font-face {
+  font-family: "ghalam";
+  src: url(../fonts/ghalam.ttf);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+
+@font-face {
+  font-family: "CustomFonts";
+  src: url(../fonts/byekan.ttf);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
