@@ -114,7 +114,7 @@ const GetInTouch = () => {
             mt: 2,
           }}
         >
-          <Box component="a" href="https://github.com/AHMMRK" target="_blank">
+          <Box component="a" href="https://github.com/ahm-mrk-3570" target="_blank">
             <IconButton>
               <GitHub sx={{ width: 30, height: 30 }} />
             </IconButton>
