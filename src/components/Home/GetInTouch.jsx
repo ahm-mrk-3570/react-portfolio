@@ -119,7 +119,7 @@ const GetInTouch = () => {
               <GitHub sx={{ width: 30, height: 30 }} />
             </IconButton>
           </Box>
-          <Box component="a" href="www.linkedin.com/in/ahm-mrk-3570m" target="_blank">
+          <Box component="a" href="https://www.linkedin.com/in/ahm-mrk-3570m" target="_blank">
             <IconButton>
               <LinkedIn sx={{ width: 30, height: 30 }} />
             </IconButton>
