@@ -72,7 +72,7 @@ const Sample = ({ title, image, tech, about, link, isOdd }) => {
             mt: 2,
           }}
         >
-          {tech.map((t, i) => {
+          {tech && tech.map((t, i) => {
             return (
               <Chip
                 key={i}

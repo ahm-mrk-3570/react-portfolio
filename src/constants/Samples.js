@@ -1,29 +1,40 @@
 import ToDoApp from '../assets/images/ToDoApp-1.png';
-import ContactManager from '../assets/images/ContactManager-2.png';
 import Shop from '../assets/images/Shop-1.png';
+import Weather from '../assets/images/weather-1.png';
+import TextToSpeech from '../assets/images/TextToSpeech.png';
+
+
 import techs from "./Techs";
 
-const { html, css, js, react, tailwindcss } = techs;
+
+const { html, css, js, react, tailwindcss, supabase_database } = techs;
 
 const sampleWorks = [
   {
+    title: "Store Website",
+    about: "Store website with all features like authentication, signup-signin, cart, favorite, orders",
+    link: "https://ahm-mrk-3570.github.io/react-ecommerce-project",
+    image: Shop,
+    tech: [react, css, js, supabase_database]
+  },
+  {
     title: "ToDoApp Manager",
     about: "Sign up and manage your tasks with this MiniApp, created by React and TailwindCss. It has light and dark theme. First sign up and use it",
-    link: "https://github.com/AHMMRK",
+    link: "https://ahm-mrk-3570.github.io/react-todo-mini-app",
     image: ToDoApp,
     tech: [ html, css, js, react, tailwindcss ]
   },{
-    title: "Contact Manager",
-    about: "I have developed a React-based Contact Management System that features full CRUD (Create, Read, Update, Delete) functionality. The application is integrated with a JSON Server backend to manage data persistence and provides a responsive, professional interface for efficient contact organization.",
-    link: "https://github.com/AHMMRK",
-    image: ContactManager,
-    tech: [ html, css, js, react ]
+    title: "Weather Status",
+    about: "The weather status web application to show the weather situation in the hours of day or the days in a week using openWeatherMap API",
+    link: "https://ahm-mrk-3570.github.io/js-weather",
+    image: Weather,
+    tech: [ html, css, js ]
   },{
-    title: "Clothing store",
-    about: "I have designed and developed a comprehensive e-commerce platform specialized in the fashion and apparel industry. Although the project is currently focused on the frontend implementation, it features a complete online store architecture, including dynamic product listings, advanced filtering, a functional shopping cart, and a seamless checkout flow. Built with React.js, it delivers a high-performance and fully responsive user experience, encompassing all the essential functionalities of a professional website.",
-    link: "https://github.com/AHMMRK",
-    image: Shop,
-    tech: [ html, css, js, react ]
+    title: "Text To Speech",
+    about: "Text to Speech is a web application that converts written text into natural speech using the Web Speech API. Users can enter text, choose from available voices, and listen to the generated audio instantly. The project focuses on creating a simple, responsive, and user-friendly interface while demonstrating JavaScript interaction with browser APIs.",
+    link: "https://ahm-mrk-3570.github.io/js-text-to-speech",
+    image: TextToSpeech,
+    tech: [ html, css, js ]
   },
 ]
 

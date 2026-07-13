@@ -1,5 +1,5 @@
 import { FaCss3, FaHtml5, FaJs, FaReact } from "react-icons/fa";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { RiSupabaseFill, RiTailwindCssFill } from "react-icons/ri";
 
 const techs = {
     html : {
@@ -21,6 +21,10 @@ const techs = {
     tailwindcss: {
       name: "Tailwindcss",
       icon: <RiTailwindCssFill color="#00bcff" size={25} />,
+    },
+    supabase_database: {
+      name: "Supabase Database",
+      icon: <RiSupabaseFill color="#008b00" size={25} />,
     },
 };
 
